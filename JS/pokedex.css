@@ -1,0 +1,174 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    height: 120px;
+    margin: 20px;
+}
+
+.mainContainer{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    padding: 20px;
+    background-color: #DE072F;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 544px;
+    height: 774px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container2{
+    padding: 20px;
+    background-color: #DE072F;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 550px;
+}
+
+.topButtons{
+    display: flex;
+    width: 80%;
+    height: 100px;
+    padding: 20px;
+}
+
+.blueCircle{
+    background-color:#09FAFB;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.redCircle{
+    background-color: #DE072F;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.yellowCircle{
+    background-color: #FFCC00;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.greenCircle{
+    background-color: #2DF900;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.screenBorder{
+    display: flex;
+    background-color: #B0B0B0;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 500px;
+    height: 350px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen{
+    display: flex;
+    background-color: #FFFFFF;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 480px;
+    height: 330px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bottomButtonsContainer{
+    display: flex;
+    width: 80%;
+    height: 200px;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.bottomButtons{
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+.blueCircle2{
+    background-color:#5199FB;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.greenOval{
+    background-color: #2DF900;
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 60px;
+    margin-left: 10px;
+}
+
+.orangeOval{
+    background-color: #FFCC00;
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 60px;
+    margin-left: 10px;
+}
+
+.searchPokemon{
+    display:flex;
+    justify-content: center;
+}
+
+.pokemonNameInput{
+    background-color: #FFCC00;
+    width: 350px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.buscarBtn{
+    background: radial-gradient(#F55E5D, #AC2422);
+    width: 70px;
+    height: 70px;
+    border: 1px solid #3A020D;
+    border-radius: 50%;
+    margin-left: 10px;
+    box-shadow: 0px 10px 1px -2px rgba(0,0,0,0.6);
+}
+
+p{
+    margin: .5rem;
+}

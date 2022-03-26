@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="pokedex.css">
+</head>
+<body>
+    <img src="/img/pokemon.webp" alt="Logo de pokemon" class="logo">
+    
+    <div class="mainContainer">
+        <div class="container">
+            <div class="topButtons">
+                <div class="blueCircle"></div>
+                <div class="redCircle"></div>
+                <div class="yellowCircle"></div>
+                <div class="greenCircle"></div>
+            </div>
+            <div class="screenBorder">
+                <div class="screen">
+                    <img src="img/whois.jpeg" alt="Quien es ese pokemon" id="pokeImg" width="150px">
+                    <div class="pokeInfo" id="pokeInfo"></div>
+                </div>
+            </div>
+            <div class="bottomButtonsContainer">
+                <div class="bottomButtons">
+                    <div class="blueCircle2"></div>
+                    <div class="greenOval"></div>
+                    <div class="orangeOval"></div>
+                </div>
+                <div class="searchPokemon">
+                    <input type="text" placeholder="Pikachu" id="pokeName" name="pokeName" class="pokemonNameInput">
+                    <button onclick="fetchPokemon2()" class="buscarBtn">Buscar</button>
+                </div>
+            </div>
+        </div>
+        <div class="container2"></div>
+    </div>
+</body>
+<footer>
+    <script src="pokedex.js"></script>
+</footer>
+</html>
